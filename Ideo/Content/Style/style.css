@@ -1,0 +1,120 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Tree */
+
+.tree {
+    background-color: aqua;
+    background: blue;
+}
+
+    .tree ul {
+        list-style-type: none;
+        margin-bottom: 0;
+    }
+
+.tree-item-folder {
+    background-color: yellowgreen;
+    background: blue;
+}
+
+.tree-item-file {
+    background-color: blue;
+}
+
+.tree-item-header {
+    display: flex;
+    align-items: center;
+}
+ .tree{
+     background-color: blue;
+ }
+
+
+    .tree-item-header .tree-item-hide-icon,
+    .tree-item-header .tree-item-show-icon,
+    .tree-item-header .tree-item-name,
+    .tree-item-header .tree-item-folder-icon,
+    .tree-item-header .tree-item-add-folder-icon,
+    .tree-item-header .tree-item-add-file-icon,
+    .tree-item-header .tree-item-remove-icon {
+        margin-left: 20px;
+    }
+
+.tree-item-hide-icon {
+    height: 14px;
+    width: 14px;
+    background-size: cover;
+    background-image: url(../Images/hide-icon.png);
+}
+
+.tree-item-show-icon {
+    height: 14px;
+    width: 14px;
+    background-size: cover;
+    background-image: url(../Images/show-icon.png);
+}
+
+.tree-item-name {
+}
+
+.tree-item-folder-icon {
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-image: url(../Images/folder-icon.png);
+}
+body{
+    background-color: blue;
+}
+.tree-item-file-icon {
+    height: 14px;
+    width: 14px;
+    margin-left: 34px;
+    background-size: cover;
+    background-image: url(../Images/file-icon.png);
+}
+
+.tree-item-add-folder-icon {
+    height: 14px;
+    width: 14px;
+    background-size: cover;
+    background-image: url(../Images/folder-add-icon.png);
+}
+
+.tree-item-add-file-icon {
+    height: 14px;
+    width: 14px;
+    background-size: cover;
+    background-image: url(../Images/file-add-icon.png);
+}
+
+.tree-item-remove-icon {
+    height: 14px;
+    width: 14px;
+    background-size: cover;
+    background-image: url(../Images/delete-icon.png);
+}

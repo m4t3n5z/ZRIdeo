@@ -1,0 +1,95 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.tree ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.tree-item-header .tree-item-hide-icon,
+.tree-item-header .tree-item-show-icon,
+.tree-item-header .tree-item-name,
+.tree-item-header .tree-item-folder-icon,
+.tree-item-header .tree-item-add-folder-icon,
+.tree-item-header .tree-item-add-file-icon,
+.tree-item-header .tree-item-remove-icon {
+    margin-left: 2px;
+}
+.tree-item-header {
+    display: flex;
+    align-items: center;
+}
+.tree ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+
+.tree-item-hide-icon {
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-image: url(../Content/Image/hide.png);
+}
+
+.tree-item-show-icon {
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-image: url(../Content/Image/show.png);
+}
+
+.tree-item-folder-icon {
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-image: url(../Content/Image/folder.png);
+}
+.tree-item-file-icon {
+    height: 20px;
+    width: 20px;
+    
+    background-size: cover;
+    background-image: url(../Content/Image/file.png);
+}
+.tree-item-name {
+}
+
+.tree-item-add-folder-icon {
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-image: url(../Content/Image/new-folder.png);
+}
+
+.tree-item-add-file-icon {
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-image: url(../Content/Image/new-file.png);
+}
+
+.tree-item-remove-icon {
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-image: url(../Content/Image/delete.png);
+}

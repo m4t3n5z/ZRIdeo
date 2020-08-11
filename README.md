@@ -1,2 +1,2 @@
-# ZRIdeo
- Zadanie rekrutacyjne Ideo
+# Ideo
+ 
